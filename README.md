@@ -1,5 +1,3 @@
-Html-forms
-==========
 
 <!DOCTYPE html>
 
@@ -34,9 +32,7 @@ Html-forms
 	      
 	      <li>
 	        <label for="mailing-list"> Хочете, щоб підписатися на нашу розсилку? </label>
-	        <input type="checkbox" checked="checked" id="mailing-list" value="Yes, sign me 
-
-up!" />
+	        <input type="checkbox" checked="checked" id="mailing-list" value="Yes, sign me up!" />
 	      </li>
 	      <li>
 	        <input type="submit" value="Шукати" />
@@ -46,9 +42,7 @@ up!" />
 <li>
 </ul><ul></ul><ul>
 	        <label for="mailing-list"> Хочете в нас зареєструватись? </label>
-	        <input type="checkbox" checked="checked" id="mailing-list" value="Yes, sign me 
-
-up!" />
+	        <input type="checkbox" checked="checked" id="mailing-list" value="Yes, sign me up!" />
 	      </li>
 
 
@@ -73,68 +67,69 @@ up!" />
             <ul>
                 <li>
 
-                    Please check all the emotions that apply to you:
-                     …
+                    Якого кольору ноутбуки вам подобаються?
 
                     <ul>
                         <li>
-                            <label for="angry">
+                            <label for="чорний">
 
-                                Angry
+                                чорний
 
                             </label>
-                            <input id="angry" type="checkbox" checked="checked" value="angry" 
-
-name="angry"></input>
+                            <input id="чорний" type="checkbox" checked="checked" value="чорний" name="чорний"></input>
                         </li>
                         <li>
-                            <label for="sad">
+                            <label for="білий">
 
-                                Sad
+                                білий
 
                             </label>
-                            <input id="sad" type="checkbox" value="sad" name="sad"></input>
+                            <input id="білий" type="checkbox" value="білий" name="білий"></input>
                         </li>
                         <li>
-                            <label for="happy">
+                            <label for="синій">
 
-                                Happy
+                                синій
 
                             </label>
-                            <input id="happy" type="checkbox" value="happy" name="happy"></input>
+                            <input id="синій" type="checkbox" value="синій" name="синій"></input>
                         </li>
                         <li>
-                            <label for="ambivalent">
+                            <label for="червоний">
 
-                                Ambivalent
+                                червоний
 
                             </label>
-                            <input id="ambivalent" type="checkbox" value="ambivalent" 
+                            <input id="червоний" type="checkbox" value="червоний" name="червоний"></input>
+                        </li>
+			<li>
+                            <label for="жовтий">
 
-name="ambivalent"></input>
+                                жовтий
+
+                            </label>
+                            <input id="жовтий" type="checkbox" value="жовтий" name="жовтий"></input>
                         </li>
                     </ul>
                 </li>
                 <li>
 
-                    How satisfied were you with our service?
+                    Яким чином вам підходить отримати товар
                         
 
                     <ul>
                         <li>
                             <label for="vsat">
 
-                                Very satisfied
+                                Приїду - заберу
 
                             </label>
-                            <input id="vsat" type="radio" checked="checked" value="vsat" 
-
-name="satisfaction"></input>
+                            <input id="vsat" type="radio" checked="checked" value="vsat" name="satisfaction"></input>
                         </li>
                         <li>
                             <label for="sat">
 
-                                Satisfied
+                                Посилка почтою
 
                             </label>
                             <input id="sat" type="radio" value="sat" name="satisfaction"></input>
@@ -142,32 +137,26 @@ name="satisfaction"></input>
                         <li>
                             <label for="dcare">
 
-                                Didn't care
+                                Кур'єр
 
                             </label>
-                            <input id="dcare" type="radio" value="dcare" 
-
-name="satisfaction"></input>
+                            <input id="dcare" type="radio" value="dcare" name="satisfaction"></input>
                         </li>
                         <li>
                             <label for="disat">
 
-                                Dissatisfied
+                                Автобусом
 
                             </label>
-                            <input id="disat" type="radio" value="disat" 
-
-name="satisfaction"></input>
+                            <input id="disat" type="radio" value="disat" name="satisfaction"></input>
                         </li>
                         <li>
                             <label for="vdisat">
 
-                                Very dissatisfied
+                                "Нова почта"
 
                             </label>
-                            <input id="vdisat" type="radio" value="vdisat" 
-
-name="satisfaction"></input>
+                            <input id="vdisat" type="radio" value="vdisat" name="satisfaction"></input>
                         </li>
                     </ul>
                 </li>
