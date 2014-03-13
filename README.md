@@ -26,8 +26,8 @@
 	        <input type="text" name="Введіть марку" id="Введіть марку" value="" />
 	      </li>
 	      <li>
-	        <label for="введіть колір">введіть колір:</label>
-	        <input type="text" name="введіть колір" id="введіть колір" value="" />
+	        <label for="введіть серію">введіть серію:</label>
+	        <input type="text" name="введіть серію" id="введіть серію" value="" />
 	      </li>
 	      
 	      <li>
@@ -64,6 +64,8 @@
                     <input id="pwd" type="password" value="" name="pwd"></input>
                 </li>
             </ul>
+<table>
+<td>
             <ul>
                 <li>
 
@@ -111,6 +113,57 @@
                             <input id="жовтий" type="checkbox" value="жовтий" name="жовтий"></input>
                         </li>
                     </ul>
+</td>
+<td>
+            <ul>
+                <li>
+
+                    Ноутбук якої саме фірми ви хотіли придбати?
+
+                    <ul>
+                        <li>
+                            <label for="Samsung">
+
+                                Samsung
+
+                            </label>
+                            <input id="Samsung" type="checkbox" checked="checked" value="Samsung" name="Samsung"></input>
+                        </li>
+                        <li>
+                            <label for="Aser">
+
+                                Aser
+
+                            </label>
+                            <input id="Aser" type="checkbox" value="Aser" name="Aser"></input>
+                        </li>
+                        <li>
+                            <label for="Asus">
+
+                                Asus
+
+                            </label>
+                            <input id="Asus" type="checkbox" value="Asus" name="Asus"></input>
+                        </li>
+                        <li>
+                            <label for="Sonu">
+
+                                Sonu
+
+                            </label>
+                            <input id="Sonu" type="checkbox" value="Sonu" name="Sonu"></input>
+                        </li>
+			<li>
+                            <label for="Apple">
+
+                                Apple
+
+                            </label>
+                            <input id="Apple" type="checkbox" value="Apple" name="Apple"></input>
+                        </li>
+                    </ul>
+</td>
+</table>
                 </li>
                 <li>
 
